@@ -8,6 +8,8 @@ This implementation uses a Pytorch version of the model and starts with pre-trai
 [Global Wheat Dataset](http://www.global-wheat.com/), the first large-scale dataset for this task. During training, many augmentation
 techniques are used, including brand new Cutmix and Mixup (see references).
 
+The training and inference process are shown in the notebooks, which includes sample images.
+
 ### What is the purpose of this model and dataset?
 
 To get large and accurate data about wheat fields worldwide, plant scientists use image detection of "wheat heads"—spikes atop the plant containing grain.
@@ -15,6 +17,8 @@ These images are used to estimate the density and size of wheat heads in differe
 Farmers can use the data to assess health and maturity when making management decisions in their fields.
 
 ### References
+
+Global Wheat Head Detection (GWHD) dataset [[arXiv](https://arxiv.org/pdf/2005.02162)]
 
 EfficientDet: Scalable and Efficient Object Detection [[arXiv](https://arxiv.org/pdf/1905.11946)]
 
@@ -26,7 +30,4 @@ EfficientDet Pytorch: A Pytorch implementation by rwightman [[GitHub repo](https
 
 Albumentations library [[GitHub repo](https://github.com/albumentations-team/albumentations)]
 
-A huge thanks to Alex Shonenkov for his work with the baseline for this implementation.
-
-
-This code was tested using Python 3.8.2, PyTorch 1.4 and Ubuntu 20.04
+A huge thanks to Alex Shonenkov for his work with the baseline for this implementation. This code was tested using Python 3.8.2, PyTorch 1.4 and Ubuntu 20.04.
