@@ -1,3 +1,0 @@
-python3-opencv
-!pip install --no-deps timm==0.1.26
-typing-extensions

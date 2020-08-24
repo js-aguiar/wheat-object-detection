@@ -10,6 +10,7 @@ import albumentations as A
 from albumentations.pytorch.transforms import ToTensorV2
 import ensemble_boxes
 
+
 class BaseTTA:
     """Base class for Test-Time Augmentation transformations"""
     def __init__(self, image_size=512):

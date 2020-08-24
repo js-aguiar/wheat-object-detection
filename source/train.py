@@ -1,6 +1,6 @@
 """
-Module for training EfficientDet with wheat images after loading the model
-with standard pretrained weights
+Module for training EfficientDet with wheat images after loading the
+model with standard pretrained weights
 """
 import os
 import time
